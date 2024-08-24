@@ -1,0 +1,73 @@
+header{
+    background-color: #0e1015;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 100px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    background-color: #1B1D23;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    padding: 16px 32px;
+    gap: 32px;
+}
+
+.pesquisa input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "Karla", sans-serif;
+    color: #fff;
+}
+
+.login{
+    background-color: #d5224e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px 64px;
+    font-size: 20px;
+    text-decoration: none;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 1340px){
+    .pesquisa{
+        width: 400px;
+    }
+}
+@media (max-width: 1150px){
+    .pesquisa{
+        width: 250px;
+    }
+}
+@media (max-width: 1000px){
+    .pesquisa{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+}

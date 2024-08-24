@@ -1,0 +1,115 @@
+.review{
+    background-color: #1C171D;
+    padding: 32px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+.header-review{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.dado-review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0
+}
+.classificacao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.classificacao img{
+    width: 16px;
+}
+.classificacao p{
+    font-family: "Krona One", sans-serif;
+}
+.dado-post-review{
+    font-family: "Karla", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 32px;
+}
+.dado-post-review a{
+    color: #D5224E;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+.texto-review{
+    margin-bottom: 12px;
+}
+.texto-review h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.texto-review p{
+    font-family: 'Karla' ;
+}
+.spoilerDropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0E1015;
+    border-radius: 8px;
+}
+.spoilerDropdown p{
+    color: #D5224E;
+}
+.spoilerDropdown img{
+    cursor: pointer;
+}
+.interacao-review{
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reacao-review{
+    display: flex;
+    gap: 60px;
+}
+.reacao-review img{
+    cursor: pointer;
+}
+.reacao-review p{
+    font-family: "Krona One", sans-serif;
+}
+.like-review,
+.dislike-review{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.review-destaque{
+    background-color: #D5224E;
+    padding: 6px 32px;
+    max-width: 341px;
+    border-radius: 8px 4px 24px 8px;
+}
+.review-destaque p{
+    font-family: "Krona One", sans-serif;
+}
+@media (max-width: 550px){
+    .review-destaque{
+        padding: 6px 16px;
+    }
+    .review-destaque p{
+        font-size: 14px;
+    }
+  }
+@media (max-width: 550px){
+    .dado-post-review{
+        padding-inline: 0px;
+    }
+    .dado-review{
+      gap: 32px;
+    }
+  }

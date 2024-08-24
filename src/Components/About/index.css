@@ -1,0 +1,57 @@
+.container-about {
+    color: white;
+    padding: 32px 100px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.topico {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+.tema {
+    font-size: 16px;
+    display: flex;
+    gap: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.tema h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .about {
+    flex-direction: column;
+}
+
+.descricao p {
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+}
+
+.avaliacoes {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: space-between; /* Garante que os elementos fiquem um à esquerda e outro à direita */
+    padding-top: 32px;
+    width: 100%; /* Garante que o container ocupe toda a largura */
+}
+
+.drop-avaliacao {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o dropdown */
+}
+
+.mais-avaliar {
+    display: flex;
+    gap: 6px;
+    text-decoration: none;
+    transition: 0.3s; /* Ajuste o tempo de transição para o hover */
+    color: #FF003F;
+    align-items: center;
+    padding-bottom: 10px;
+}
